@@ -24,11 +24,16 @@ Both models were compared using RMSE and R² metrics, and feature importance was
 ## 📈 Results
 The Decision Tree model showed higher accuracy but was more prone to overfitting. Elastic Net provided more interpretable results and better generalization.
 
-## 📁 Structure
-- `notebooks/` – Exploratory Data Analysis and model training
-- `preprocessing.py` – All data cleaning and preparation steps
-- `train.csv` – Original training data
-- `README.md` – Project overview
+## 📂 Project Files
+
+- `my_project.ipynb` – Main Jupyter notebook containing data processing, model training and evaluation.
+- `train.xlsx` – Raw dataset used for training.
+- `ElasticNet_model.pkl` – Saved Elastic Net regression model.
+- `decision_tree_model.pkl` – Saved Decision Tree Regressor model.
+- `all_params.pkl` – Contains all preprocessing parameters (e.g. scalers, encoders, and statistical values) extracted from the training set. These are used to ensure consistent transformation of the test data, identical to the training pipeline.
+
+- `README.md` – Project overview and documentation.
+
 
 ## 👨‍💻 Author
 Bania Unger – Industrial Engineering & Management student, Ariel University
